@@ -5,7 +5,7 @@ import React from "react"
 const Header = ({ siteTitle, siteDescription }) => (
   <header
     style={{
-      background: `#1868ae`,
+      background: `linear-gradient(to right, #ad5389, #3c1053)`,
       marginBottom: `1.45rem`,
     }}
   >
@@ -28,8 +28,8 @@ const Header = ({ siteTitle, siteDescription }) => (
         </Link>
       </h1>
       <p style={{
-        marginTop: `10px`,
-        fontSize: `20px`,
+        marginTop: `24px`,
+        fontSize: `21px`,
         color: `white`
       }}>
         {siteDescription}
