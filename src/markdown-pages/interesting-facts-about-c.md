@@ -20,7 +20,7 @@ description: "So let's see, how deep you know the roots of C language... "
         return 0;
     }
 >* In **printf()** & **scanf()**, **f** stands for **FORMATTED** not **FUNCTION**
-> * We can use <: , :> in the place of square brackets [,] and <%, %> in the place of curly braces {,}
+> * We can use **<:**, **:>** in the place of square brackets **[**, **]** and **<%**, **%>** in the place of curly braces **{**, **}**
     #include <stdio.h>
     main() <%
         int array<:10:> = <%1, 2, 3, 4, 5, 6, 7, 8, 9, 10%>;
